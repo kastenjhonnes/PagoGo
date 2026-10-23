@@ -33,8 +33,8 @@ coletivo ou interurbano e buscam informações rápidas sobre trajetos e modais 
 
 ## Links do Projeto
 
-- **Repositório GitHub:** <https://github.com/kastencorrea/PagoGo>
-- **Publicação (GitHub Pages):** <https://kastencorrea.github.io/PagoGo/>
+- **Repositório GitHub:** <https://github.com/kastenjhonnes/PagoGo>
+- **Publicação (GitHub Pages):** <https://kastenjhonnes.github.io/PagoGo/>
 
 ---
 
@@ -197,7 +197,7 @@ Testado com o modo responsivo do DevTools do Chrome/Firefox.
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/kastencorrea/PagoGo.git
+   git clone https://github.com/kastenjhonnes/PagoGo.git
    ```
 
 2. Acesse a pasta do projeto:
@@ -215,7 +215,7 @@ Testado com o modo responsivo do DevTools do Chrome/Firefox.
 
 O projeto está publicado via GitHub Pages no endereço:
 
-**<https://kastencorrea.github.io/PagoGo/>**
+**<https://kastenjhonnes.github.io/PagoGo/>**
 
 Para publicar/atualizar:
 
