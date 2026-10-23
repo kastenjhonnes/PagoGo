@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagoGo — Todas as rotas. Uma jornada.</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header class="header-main">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Pago<span>Go</span></a>
+            <nav class="nav-menu" aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="rotas.html">Explorar Rotas</a></li>
+                    <li><a href="contato.html">Contato &amp; Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h1>All routes. One journey.</h1>
+                <p>Compare rotas de avião, trem, ônibus e carro com índice de pegada de carbono.</p>
+
+                <form class="search-box" action="rotas.html" method="GET">
+                    <div class="input-group">
+                        <label for="origem" class="visually-hidden">Origem</label>
+                        <input type="text" id="origem" name="origem" placeholder="Origem (ex: Joinville)" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="destino" class="visually-hidden">Destino</label>
+                        <input type="text" id="destino" name="destino" placeholder="Destino (ex: Curitiba)" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Pesquisar Rotas</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Destaques de Rotas Populares -->
+        <section class="features-section container">
+            <h2>Rotas Mais Procuradas</h2>
+            <div class="cards-grid">
+
+                <article class="card">
+                    <img src="imagens/trem.avif" alt="Trem de alta velocidade em movimento nas trilhas">
+                    <div class="card-body">
+                        <span class="badge badge-eco">Baixo CO₂</span>
+                        <h3>São Paulo para Rio de Janeiro</h3>
+                        <p class="card-info"><strong>Modais integrados:</strong> Trem / Ônibus</p>
+                        <p class="card-info"><strong>Duração estimada:</strong> 6h 30m</p>
+                        <p class="card-price">A partir de R$ 120,00</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="imagens/onibus.avif" alt="Ônibus rodoviário em estrada asfaltada">
+                    <div class="card-body">
+                        <span class="badge badge-fast">Mais Rápida</span>
+                        <h3>Joinville para Curitiba</h3>
+                        <p class="card-info"><strong>Modais integrados:</strong> Ônibus / Carro</p>
+                        <p class="card-info"><strong>Duração estimada:</strong> 2h 15m</p>
+                        <p class="card-price">A partir de R$ 45,00</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="imagens/aviao.avif" alt="Avião comercial voando acima das nuvens">
+                    <div class="card-body">
+                        <span class="badge badge-popular">Mais Popular</span>
+                        <h3>Florianópolis para Porto Alegre</h3>
+                        <p class="card-info"><strong>Modais integrados:</strong> Avião / Ônibus</p>
+                        <p class="card-info"><strong>Duração estimada:</strong> 1h 10m</p>
+                        <p class="card-price">A partir de R$ 210,00</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção de Benefícios do Portal -->
+        <section class="benefits-section">
+            <div class="container">
+                <h2>Por que planejar com o PagoGo?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="icon" aria-hidden="true">🌿</div>
+                        <h3>Eco-Index Integrado</h3>
+                        <p>Calcule e compare a emissão de CO₂ de cada modal de transporte antes de reservar.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="icon" aria-hidden="true">⚡</div>
+                        <h3>Rotas Multimodais</h3>
+                        <p>Combine trechos de avião, ônibus e trem em um único itinerário contínuo e prático.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="icon" aria-hidden="true">🚫</div>
+                        <h3>Sem Banners Poluídos</h3>
+                        <p>Interface focada na experiência do usuário, sem pop-ups ou anúncios intrusivos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer-main">
+        <div class="container">
+            <p>&copy; 2026 PagoGo - Projeto Acadêmico IFC. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
